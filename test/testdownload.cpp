@@ -119,6 +119,31 @@ private slots:
         QCOMPARE(getItem(completeSpy, "A/broken")->_status, SyncFileItem::NormalError);
         QVERIFY(getItem(completeSpy, "A/broken")->_errorString.contains(serverMessage));
     }
+
+    void testHttp2Resend() {
+        FakeFolder fakeFolder{FileInfo::A12_B12_C12_S12()};
+        fakeFolder.remoteModifier().insert("A/resendme", 300);
+
+        QByteArray serverMessage = "Needs to be resend on a new connection!";
+        int resendCount = 0;
+
+        // First, download only the first 3 MB of the file
+        fakeFolder.setServerOverride([&](QNetworkAccessManager::Operation op, const QNetworkRequest &request, QIODevice *) -> QNetworkReply * {
+            if (op == QNetworkAccessManager::GetOperation && request.url().path().endsWith("A/resendme") && resendCount < 2) {
+                auto errorReply = new FakeErrorReply(op, request, this, 400, "ignore this body");
+                errorReply->setError(QNetworkReply::ContentReSendError, serverMessage);
+                errorReply->setAttribute(QNetworkRequest::HTTP2WasUsedAttribute, true);
+                errorReply->setAttribute(QNetworkRequest::HttpStatusCodeAttribute, QVariant());
+                resendCount += 1;
+                return errorReply;
+            }
+            return nullptr;
+        });
+
+        QVERIFY(fakeFolder.syncOnce());
+        QCOMPARE(fakeFolder.currentLocalState(), fakeFolder.currentRemoteState());
+        QCOMPARE(resendCount, 2);
+    }
 };
 
 QTEST_GUILESS_MAIN(TestDownload)
