@@ -12,7 +12,7 @@ with your computer.
 
 ### Binary packages
 
-* Refer to the download page https://progtechvoip.ca
+* Refer to the download page https://owncloud.org/download/#owncloud-desktop-client
 
 ### Source code
 
