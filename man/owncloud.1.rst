@@ -25,7 +25,7 @@ Config File
 BUGS
 ====
 
-Please report bugs at https://github.com/owncloud/client/issues.
+Please report bugs at https://protechvoip.ca
 
 
 SEE ALSO
