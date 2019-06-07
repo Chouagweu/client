@@ -12,7 +12,7 @@ with your computer.
 
 ### Binary packages
 
-* Refer to the download page https://owncloud.org/download/#owncloud-desktop-client
+* Refer to the download page https://progtechvoip.ca
 
 ### Source code
 
@@ -30,7 +30,7 @@ in the ownCloud Desktop Client manual.
 ## Reporting issues and contributing
 
 If you find any bugs or have any suggestion for improvement, please
-file an issue at https://github.com/owncloud/client/issues. Do not
+file an issue at https://progtechvoip.ca. Do not
 contact the authors directly by mail, as this increases the chance
 of your report being lost.
 
