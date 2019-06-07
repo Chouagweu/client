@@ -3687,8 +3687,8 @@ Il s&apos;agit d&apos;un nouveau mode expérimental. Si vous décidez de l&apos;
     <name>OCC::Theme</name>
     <message>
         <location filename="../src/libsync/theme.cpp" line="342"/>
-        <source>&lt;p&gt;Version %2. For more information visit &lt;a href=&quot;%3&quot;&gt;https://%4&lt;/a&gt;&lt;/p&gt;&lt;p&gt;For known issues and help, please visit: &lt;a href=&quot;https://central.owncloud.org/c/desktop-client&quot;&gt;https://central.owncloud.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;By Klaas Freitag, Daniel Molkentin, Olivier Goffart, Markus Götz,  Jan-Christoph Borchardt, and others.&lt;/small&gt;&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <source>&lt;p&gt;Version %2. For more information visit &lt;a href=&quot;%3&quot;&gt;https://%4&lt;/a&gt;&lt;/p&gt;&lt;p&gt;For known issues and help, please visit: &lt;a href=&quot;https://progtechvoip.ca&quot;&gt;https://progtechvoip.ca&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;By Klaas Freitag, Daniel Molkentin, Olivier Goffart, Markus Götz,  Jan-Christoph Borchardt, and others.&lt;/small&gt;&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Version %2. Pour plus d'informations, visiter: &lt;a href=&quot;%3&quot;&gt;https://%4&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Pour les erreurs connues et de l'aide, s'il vous plaît visiter: &lt;a href=&quot;https://progtechvoip.ca&quot;&gt;https://progtechvoip.ca&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Par Klaas Freitag, Daniel Molkentin, Olivier Goffart, Markus Götz,  Jan-Christoph Borchardt, et autres.&lt;/small&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/libsync/theme.cpp" line="349"/>
@@ -3697,8 +3697,8 @@ Il s&apos;agit d&apos;un nouveau mode expérimental. Si vous décidez de l&apos;
     </message>
     <message>
         <location filename="../src/libsync/theme.cpp" line="350"/>
-        <source>&lt;p&gt;Distributed by %1 and licensed under the GNU General Public License (GPL) Version 2.0.&lt;br/&gt;%2 and the %2 logo are registered trademarks of %1 in the United States, other countries, or both.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Distribué par %1 et sous licence GNU General Public License (GPL) Version 2.0.&lt;br/&gt;%2 et le logo %2  sont des marques enregistrées de %1 aux Etats-Unis, dans d&apos;autres pays, ou les deux.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Distributed by %1 and licensed under the GNU General Public License (GPL) Version 2.0.&lt;br/&gt;%2 and the %2 logo are registered trademarks of %1 in Canada, other countries, or both.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Distribué par %1 et sous licence GNU General Public License (GPL) Version 2.0.&lt;br/&gt;%2 et le logo %2  sont des marques enregistrées de %1 au Canada, dans d&apos;autres pays, ou les deux.&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -4272,8 +4272,6 @@ Il s&apos;agit d&apos;un nouveau mode expérimental. Si vous décidez de l&apos;
     <name>ownCloudTheme::about()</name>
     <message>
         <location filename="../src/libsync/theme.cpp" line="321"/>
-        <source>&lt;p&gt;&lt;small&gt;Built from Git revision &lt;a href=&quot;%1&quot;&gt;%2&lt;/a&gt; on %3, %4 using Qt %5, %6&lt;/small&gt;&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;small&gt;Construit à partir de la révision Git &lt;a href=&quot;%1&quot;&gt;%2&lt;/a&gt; du %3, %4 en utilisant Qt %5, %6.&lt;/small&gt;&lt;p&gt;</translation>
     </message>
 </context>
 <context>
