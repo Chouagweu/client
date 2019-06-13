@@ -3687,8 +3687,8 @@ Il s&apos;agit d&apos;un nouveau mode expérimental. Si vous décidez de l&apos;
     <name>OCC::Theme</name>
     <message>
         <location filename="../src/libsync/theme.cpp" line="342"/>
-        <source>&lt;p&gt;Version %2. For more information visit &lt;a href=&quot;%3&quot;&gt;https://%4&lt;/a&gt;&lt;/p&gt;&lt;p&gt;For known issues and help, please visit: &lt;a href=&quot;https://progtechvoip.ca&quot;&gt;https://progtechvoip.ca&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;By Klaas Freitag, Daniel Molkentin, Olivier Goffart, Markus Götz,  Jan-Christoph Borchardt, and others.&lt;/small&gt;&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Version %2. Pour plus d'informations, visiter: &lt;a href=&quot;%3&quot;&gt;https://%4&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Pour les erreurs connues et de l'aide, s'il vous plaît visiter: &lt;a href=&quot;https://progtechvoip.ca&quot;&gt;https://progtechvoip.ca&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Par Klaas Freitag, Daniel Molkentin, Olivier Goffart, Markus Götz,  Jan-Christoph Borchardt, et autres.&lt;/small&gt;&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Version %2. For known issues and help, please visit: &lt;a href=&quot;https://progtechvoip.ca&quot;&gt;https://progtechvoip.ca&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;By Klaas Freitag, Daniel Molkentin, Olivier Goffart, Markus Götz,  Jan-Christoph Borchardt, and others.&lt;/small&gt;&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Version %2. Pour les erreurs connues et de l'aide, s'il vous plaît visiter: &lt;a href=&quot;https://progtechvoip.ca&quot;&gt;https://progtechvoip.ca&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Par Klaas Freitag, Daniel Molkentin, Olivier Goffart, Markus Götz,  Jan-Christoph Borchardt, et autres.&lt;/small&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/libsync/theme.cpp" line="349"/>
