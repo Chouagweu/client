@@ -3763,7 +3763,7 @@ This is a new, experimental mode. If you decide to use it, please report any iss
     <name>OCC::Theme</name>
     <message>
         <location filename="../src/libsync/theme.cpp" line="343"/>
-        <source>&lt;p&gt;Version %2. For more information visit &lt;a href=&quot;%3&quot;&gt;https://%4&lt;/a&gt;&lt;/p&gt;&lt;p&gt;For known issues and help, please visit: &lt;a href=&quot;https://progtechvoip.ca&quot;&gt;https://progtechvoip.ca&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;By Klaas Freitag, Daniel Molkentin, Olivier Goffart, Markus Götz,  Jan-Christoph Borchardt, and others.&lt;/small&gt;&lt;/p&gt;</source>
+        <source>&lt;p&gt;Version %2. For known issues and help, please visit: &lt;a href=&quot;https://progtechvoip.ca&quot;&gt;https://progtechvoip.ca&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;By Klaas Freitag, Daniel Molkentin, Olivier Goffart, Markus Götz,  Jan-Christoph Borchardt, and others.&lt;/small&gt;&lt;/p&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
