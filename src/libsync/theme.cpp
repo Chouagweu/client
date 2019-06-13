@@ -333,8 +333,7 @@ QString Theme::about() const
     if (vendor == "progTechSync") vendor = QLatin1String("progTechSync");
 
     QString devString;
-    devString = tr("<p>Version %2. For more information visit <a href=\"%3\">https://%4</a></p>"
-                       "<p>For known issues and help, please visit: <a href=\"https://progtechsync.ca\">https://progtechsync.ca</a></p>"
+    devString = tr("<p>Version %2.For known issues and help, please visit: <a href=\"https://progtechsync.ca\">https://progtechsync.ca</a></p>"
                        "<p><small>By Klaas Freitag, Daniel Molkentin, Olivier Goffart, Markus Götz, "
                        " Jan-Christoph Borchardt, and others.</small></p>")
                     .arg(Utility::escape(MIRALL_VERSION_STRING),
